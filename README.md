@@ -252,7 +252,7 @@ jobs:
 - Перейдите на вкладку **Actions** в вашем репозитории на **GitHub**. Вы увидите, как ваш **Workflow** запустился, а через несколько минут загорится **зеленая** галочка, которая означает, что все шаги прошли успешно
 - Если ваш **Workflow** стал красным - исправьте ошибки и запуштесь снова
 
-![Скрин](/content/DevOps/CI_CD/img/12_workflow.png)
+![alt text](image.png)
 
 ### 9. Проверить сборку Docker-образа локально
 
@@ -264,6 +264,6 @@ docker build -t my-cpp-app:latest .
 docker run --rm my-cpp-app:latest
 ```
 
-![Скрин](/content/DevOps/CI_CD/img/13_workflow.png)
+![alt text](image-1.png)
 
 > Если вы обнаружили ошибку в этом тексте - сообщите пожалуйста автору!
